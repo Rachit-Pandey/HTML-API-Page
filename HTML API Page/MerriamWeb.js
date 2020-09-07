@@ -13,7 +13,7 @@ function keyPressed(){
     }
 }
 function search(){
-loadJSON('https://dictionaryapi.com/api/v3/references/collegiate/json/'+inp.value()+'?key=82cf05f4-7351-453e-886a-be93aa1846b0',gotData);
+loadJSON('https://dictionaryapi.com/api/v3/references/collegiate/json/'+inp.value()+'?key= key goes here',gotData);
 }
 function gotData(results){
 let def = results[0].shortdef;
